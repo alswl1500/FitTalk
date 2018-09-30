@@ -191,7 +191,7 @@ class ChatbotActivity : AppCompatActivity() {
                         // 온도
                         var temp = item.main?.temp
                         // 날씨 상태
-                        var description = item.weather!![0].description
+                        //var description = item.weather!![0].description
                         // 시간
                         var time = weatherDataFormatToHumanText.format(weatherItemUnixTime)
                         // 습도
@@ -199,7 +199,7 @@ class ChatbotActivity : AppCompatActivity() {
                         // 풍속
                         var speed = item.wind?.speed
                         // 3시간 동안 침적되는 비의 양
-                        var three_hour = item.rain?.three_hour
+                        //var three_hour = item.rain?.three_hour
 
                         var message = time + " 기준 " + city + "의 기온은 " + temp + "도 입니다! " + "\n" + "습도는 " + humidity + "% 구요! " + "풍속은 " + speed + "meter/sec " + "입니다! " + "\n" + " 날씨 핑계대지 말고 나가서 운동하세요!!"
 
